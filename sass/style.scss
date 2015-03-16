@@ -21,3 +21,33 @@
 /* 页面
  ---------------------------------------------------------- */
 
+html, body {
+	background: transparent;
+}
+
+#content {
+	width: 1090px;
+	margin: 0 auto;
+	h2 {
+		display: block;
+		margin-top: 47px;
+	}
+}
+
+#logo {
+	display: inline-block;
+	width: 217px;
+	height: 68px;
+	background: url(../imgs/logo.png);
+}
+
+#wrapper {
+	z-index: -999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: url(../imgs/bg.png) repeat;
+	background-size: cover;
+}
