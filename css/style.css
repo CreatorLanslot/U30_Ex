@@ -4075,15 +4075,124 @@ html, body {
 #content {
   width: 1090px;
   margin: 0 auto; }
-  #content h2 {
-    display: block;
-    margin-top: 47px; }
 
-#logo {
+#logo a {
   display: inline-block;
   width: 217px;
   height: 68px;
+  margin-top: 47px;
   background: url(../imgs/logo.png); }
+
+#link {
+  margin-top: 56px;
+  text-align: center; }
+  #link a {
+    display: inline-block;
+    width: 204px;
+    height: 16px;
+    margin-left: 5px;
+    background: url(../imgs/link.png); }
+
+#combine {
+  margin-top: 260px;
+  height: 24px; }
+
+#tech, #idea, #pd {
+  float: left;
+  height: 24px;
+  text-align: center; }
+  #tech a, #idea a, #pd a {
+    display: inline-block;
+    width: 54px;
+    height: 24px; }
+
+#tech {
+  margin-left: 62px;
+  width: 374px; }
+  #tech a {
+    background: url(../imgs/tech.png);
+    transition: .3s; }
+    #tech a:hover {
+      background: url(../imgs/tech_1.png); }
+
+#idea {
+  width: 222px; }
+  #idea a {
+    background: url(../imgs/idea.png);
+    transition: .3s; }
+    #idea a:hover {
+      background: url(../imgs/idea_1.png); }
+
+#pd {
+  width: 364px; }
+  #pd a {
+    background: url(../imgs/pd.png);
+    transition: .3s; }
+    #pd a:hover {
+      background: url(../imgs/pd_1.png); }
+
+#part {
+  height: 40px;
+  margin-top: 89px; }
+
+#ed, #wd, #om {
+  float: left;
+  height: 40px;
+  text-align: center; }
+  #ed a, #wd a, #om a {
+    display: inline-block;
+    width: 190px;
+    height: 40px; }
+
+#ed {
+  margin-left: 62px;
+  width: 374px; }
+  #ed a {
+    background: url(../imgs/ed.png);
+    transition: .3s; }
+    #ed a:hover {
+      background: url(../imgs/ed_1.png); }
+
+#wd {
+  width: 222px; }
+  #wd a {
+    background: url(../imgs/wd.png);
+    transition: .3s; }
+    #wd a:hover {
+      background: url(../imgs/wd_1.png); }
+
+#om {
+  width: 364px; }
+  #om a {
+    background: url(../imgs/om.png);
+    transition: .3s; }
+    #om a:hover {
+      background: url(../imgs/om_1.png); }
+
+#info {
+  position: relative;
+  margin-top: 47px;
+  text-align: center;
+  font: normal 18px/18px Microsoft Yahei, sans-serif;
+  color: #168360;
+  cursor: default; }
+  #info span {
+    position: absolute;
+    right: 0; }
+    #info span a {
+      color: #29eaab;
+      margin-left: 21px;
+      transition: .3s; }
+      #info span a:hover {
+        color: #168360; }
+
+#format {
+  z-index: -998;
+  position: absolute;
+  top: 15px;
+  width: 1090px;
+  height: 670px;
+  background: url(../imgs/format.png) center center; }
 
 #wrapper {
   z-index: -999;
@@ -4092,5 +4201,4 @@ html, body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: url(../imgs/bg.png) repeat;
-  background-size: cover; }
+  background: url(../imgs/bg.png) repeat; }

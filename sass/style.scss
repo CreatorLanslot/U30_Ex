@@ -28,17 +28,157 @@ html, body {
 #content {
 	width: 1090px;
 	margin: 0 auto;
-	h2 {
-		display: block;
-		margin-top: 47px;
-	}
 }
 
-#logo {
+#logo a {
 	display: inline-block;
 	width: 217px;
 	height: 68px;
+	margin-top: 47px;
 	background: url(../imgs/logo.png);
+}
+
+#link {
+	margin-top: 56px;
+	text-align: center;
+	a {
+		display: inline-block;
+		width: 204px;
+		height: 16px;
+		margin-left: 5px;
+		background: url(../imgs/link.png);
+	}
+}
+
+#combine {
+	margin-top: 260px;
+	height: 24px;
+}
+
+#tech, #idea, #pd {
+	float: left;
+	height: 24px;
+	text-align: center;
+	a {
+		display: inline-block;
+		width: 54px;
+		height: 24px;
+	}
+}
+
+#tech {
+	margin-left: 62px;
+	width: 374px;
+	a {
+		background: url(../imgs/tech.png);
+		transition: .3s;
+		&:hover {
+			background: url(../imgs/tech_1.png);
+		}
+	}
+}
+
+#idea {
+	width: 222px;
+	a {
+		background: url(../imgs/idea.png);
+		transition: .3s;
+		&:hover {
+			background: url(../imgs/idea_1.png);
+		}
+	}
+}
+
+#pd {
+	width: 364px;
+	a {
+		background: url(../imgs/pd.png);
+		transition: .3s;
+		&:hover {
+			background: url(../imgs/pd_1.png);
+		}
+	}
+}
+
+#part {
+	height: 40px;
+	margin-top: 89px;
+}
+
+#ed, #wd, #om {
+	float: left;
+	height: 40px;
+	text-align: center;
+	a {
+		display: inline-block;
+		width: 190px;
+		height: 40px;
+	}
+}
+
+#ed {
+	margin-left: 62px;
+	width: 374px;
+	a {
+		background: url(../imgs/ed.png);
+		transition: .3s;
+		&:hover {
+			background: url(../imgs/ed_1.png);
+		}
+	}
+}
+
+#wd {
+	width: 222px;
+	a {
+		background: url(../imgs/wd.png);
+		transition: .3s;
+		&:hover {
+			background: url(../imgs/wd_1.png);
+		}
+	}
+}
+
+#om {
+	width: 364px;
+	a {
+		background: url(../imgs/om.png);
+		transition: .3s;
+		&:hover {
+			background: url(../imgs/om_1.png);
+		}
+	}
+}
+
+#info {
+	position: relative;
+	margin-top: 47px;
+	text-align: center;
+	font: normal 18px/18px Microsoft Yahei, sans-serif;
+	color: $dark-green;
+	cursor: default;
+
+	span {
+		position: absolute;
+		right: 0;
+		a {
+			color: $base-green;
+			margin-left: 21px;
+			transition: .3s;
+			&:hover {
+				color: $dark-green;
+			}
+		}
+	}
+}
+
+#format {
+	z-index: -998;
+	position: absolute;
+	top: 15px;
+	width: 1090px;
+	height: 670px;
+	background: url(../imgs/format.png) center center;
 }
 
 #wrapper {
@@ -49,5 +189,4 @@ html, body {
 	width: 100vw;
 	height: 100vh;
 	background: url(../imgs/bg.png) repeat;
-	background-size: cover;
 }
